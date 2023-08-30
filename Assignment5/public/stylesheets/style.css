@@ -1,0 +1,21 @@
+body {
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	background-color: #bfa;
+}
+
+.showCourse {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.showCourse th,
+.showCourse td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
+}
+
+.showCourse th {
+	background-color: #4CAF50;
+	color: white;
+}

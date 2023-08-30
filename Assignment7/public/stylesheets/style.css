@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+div {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.start label {
+    color: black;
+}
+
+.displayCard {
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    margin: 10px;
+    display: inline-block;
+}

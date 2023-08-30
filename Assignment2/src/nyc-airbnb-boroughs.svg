@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800">
+<text x="30" y="30" fill="red" font-size="20">Brooklyn
+</text>
+<rect x="30" y="60" width="60" height="201.04" fill="red">
+</rect>
+<text x="150" y="30" fill="red" font-size="20">Manhattan
+</text>
+<rect x="170" y="60" width="60" height="216.6" fill="blue">
+</rect>
+<text x="300" y="30" fill="red" font-size="20">Queens
+</text>
+<rect x="310" y="60" width="60" height="56.66" fill="brown">
+</rect>
+<text x="420" y="30" fill="red" font-size="20">Staten Island
+</text>
+<rect x="450" y="60" width="60" height="3.73" fill="pink">
+</rect>
+<text x="590" y="30" fill="red" font-size="20">Bronx
+</text>
+<rect x="590" y="60" width="60" height="10.91" fill="yellow">
+</rect>
+</svg>

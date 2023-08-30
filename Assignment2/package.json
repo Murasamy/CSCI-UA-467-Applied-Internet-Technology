@@ -1,0 +1,30 @@
+{
+  "name": "homework02-murasamy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0467-001-002-spring-2023/homework02-Murasamy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0467-001-002-spring-2023/homework02-Murasamy/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0467-001-002-spring-2023/homework02-Murasamy#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.33.0",
+    "eslint-plugin-mocha": "^10.1.0",
+    "mocha": "^10.2.0",
+    "mocha-sinon": "^2.1.2",
+    "sinon": "^15.0.1"
+  }
+}

@@ -1,0 +1,53 @@
+<form action="/" method="GET">
+    <label for="semester">Semester:</label>
+    <select name="semester" id="semester">
+        <option value="Spring">Spring</option>
+        <option value="Fall">Fall</option>
+        <option value="All">ALL</option>
+    </select>
+
+    <label for="year">Year:</label>
+    <input type="number" name="year" value="">
+
+    <label for="professor">Professor:</label>
+    <input type="text" name="professor" value="">
+
+    <input type="submit" value="Search">
+
+</form>
+
+
+<ul>
+  
+<table class="showCourse">
+
+  
+    <tr>
+        <th>Course name</th>
+        <th>Course number</th>
+        <th>Semester</th>
+        <th>Year</th>
+        <th>Professor</th>
+        <th>Review</th>
+    </tr>
+    {{#each reviews}}
+    <tr>
+        <th>{{courseName}}</th>
+        <th>{{courseNumber}}</th>
+        <th>{{semester}}</th>
+        <th>{{year}}</th>
+        <th>{{professor}}</th>
+        <th>{{review}}</th>
+    </tr>
+    {{!-- <div>{{courseName}}, {{courseNumber}}, {{semester}}, year, {{professor}}, {{review}}</div> --}}
+    {{/each}}
+</table>
+
+<script>
+  const semesterSelect = document.querySelector('select[name="semester"]');
+  semesterSelect.addEventListener('change', () => {
+    if (semesterSelect.value === 'All') {
+      semesterSelect.value = '';
+    }
+  });
+</script>

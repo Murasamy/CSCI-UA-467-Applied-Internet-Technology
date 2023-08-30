@@ -1,0 +1,58 @@
+{{#if error}}
+<h1>error! {{error}}</h1>
+{{/if}}
+
+{{!-- <form method="GET" action="/listSearch">
+    min lives: <input type="text" name="searchKaomoji" placeholder="Enter Kaomoji">
+    <input type="submit" value="searchKaomoji">
+</form> --}}
+
+<div class="listSearchDiv">
+    <form class="listSearchForm" method="GET" action="">
+        <input class="listSearchInput" type="text" , name="emotion" placeholder="Enter your message...">
+        <div><input class="listSearchSubmit" type="submit" value="submit" size="100"></div>
+    </form>
+</div>
+
+{{!-- <ul class="element-list">
+    {{#each KaomojiList}}
+    <li class="element-item">{{value}} : {{emotions}}</li>
+    {{/each}}
+</ul> --}}
+
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>Key</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each KaomojiList}}
+            <tr>
+                <td>{{value}}</td>
+                <td>{{emotions}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+
+<div class="listSearchAddDiv">
+    <form id="listAddForm" method="POST" action="/addEmotions">
+        <input class="listSearchAddInput" type="text" , name="addValue" placeholder="Enter your value...">
+        <input class="listSearchAddInput" type="text" , name="addEmotions" placeholder="Enter your emotions...">
+        <input class="listSearchAddInput" type="submit" value="submit">
+    </form>
+</div>
+
+{{!-- <script>
+
+{{!-- prevent the page from returning to top 
+const form = document.getElementById("listAddForm");
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+}); --}}
+
+</script> --}}

@@ -1,0 +1,34 @@
+{
+  "name": "homework01-murasamy",
+  "version": "1.0.0",
+  "description": "Murasamy Homework #01 - Crazy Eights",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0467-001-002-spring-2023/homework01-Murasamy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0467-001-002-spring-2023/homework01-Murasamy/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0467-001-002-spring-2023/homework01-Murasamy#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.32.0",
+    "eslint-plugin-mocha": "^10.1.0",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "clear": "^0.1.0",
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  }
+}
